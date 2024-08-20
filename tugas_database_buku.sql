@@ -24,7 +24,7 @@ update buku set harga = 120000 where id = 1;
 delete from buku where id = 2;
 
 -- query menampilkan total baris pada tabel
-SELECT COUNT(*) FROM buku;
+SELECT count(*) FROM buku;
 
 -- query menampilkan maximal harga buku paling mahal pada tabel
 select max(harga) from buku;
